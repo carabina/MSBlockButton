@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		095F045920502CD8006E2913 /* UIButton+MSBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 095F045820502CCF006E2913 /* UIButton+MSBlocks.m */; };
+		096E96F3204FE198007C1CB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 096E96F2204FE198007C1CB8 /* AppDelegate.m */; };
+		096E96F6204FE198007C1CB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096E96F5204FE198007C1CB8 /* ViewController.m */; };
+		096E96F9204FE198007C1CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096E96F7204FE198007C1CB8 /* Main.storyboard */; };
+		096E96FB204FE198007C1CB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096E96FA204FE198007C1CB8 /* Assets.xcassets */; };
+		096E96FE204FE198007C1CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096E96FC204FE198007C1CB8 /* LaunchScreen.storyboard */; };
+		096E9701204FE198007C1CB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 096E9700204FE198007C1CB8 /* main.m */; };
+		096E9709204FE1BA007C1CB8 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096E9708204FE1BA007C1CB8 /* SwiftViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		092C64F6205036E100DBC679 /* MSBlockButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSBlockButton.h; sourceTree = "<group>"; };
+		095F045720502CCF006E2913 /* UIButton+MSBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+MSBlocks.h"; sourceTree = "<group>"; };
+		095F045820502CCF006E2913 /* UIButton+MSBlocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MSBlocks.m"; sourceTree = "<group>"; };
+		096E96EE204FE198007C1CB8 /* MSBlockButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSBlockButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		096E96F1204FE198007C1CB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		096E96F2204FE198007C1CB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		096E96F4204FE198007C1CB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		096E96F5204FE198007C1CB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		096E96F8204FE198007C1CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		096E96FA204FE198007C1CB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		096E96FD204FE198007C1CB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		096E96FF204FE198007C1CB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096E9700204FE198007C1CB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		096E9707204FE1B9007C1CB8 /* MSBlockButtonDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MSBlockButtonDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		096E9708204FE1BA007C1CB8 /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		096E96EB204FE198007C1CB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095F045520502CCF006E2913 /* MSBlockButton */ = {
+			isa = PBXGroup;
+			children = (
+				095F045720502CCF006E2913 /* UIButton+MSBlocks.h */,
+				095F045820502CCF006E2913 /* UIButton+MSBlocks.m */,
+				092C64F6205036E100DBC679 /* MSBlockButton.h */,
+			);
+			path = MSBlockButton;
+			sourceTree = SOURCE_ROOT;
+		};
+		096E96E5204FE198007C1CB8 = {
+			isa = PBXGroup;
+			children = (
+				096E96F0204FE198007C1CB8 /* MSBlockButtonDemo */,
+				096E96EF204FE198007C1CB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		096E96EF204FE198007C1CB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				096E96EE204FE198007C1CB8 /* MSBlockButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		096E96F0204FE198007C1CB8 /* MSBlockButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				095F045520502CCF006E2913 /* MSBlockButton */,
+				096E96F1204FE198007C1CB8 /* AppDelegate.h */,
+				096E96F2204FE198007C1CB8 /* AppDelegate.m */,
+				096E96F4204FE198007C1CB8 /* ViewController.h */,
+				096E96F5204FE198007C1CB8 /* ViewController.m */,
+				096E9708204FE1BA007C1CB8 /* SwiftViewController.swift */,
+				096E96F7204FE198007C1CB8 /* Main.storyboard */,
+				096E96FA204FE198007C1CB8 /* Assets.xcassets */,
+				096E96FC204FE198007C1CB8 /* LaunchScreen.storyboard */,
+				096E96FF204FE198007C1CB8 /* Info.plist */,
+				096E9700204FE198007C1CB8 /* main.m */,
+				096E9707204FE1B9007C1CB8 /* MSBlockButtonDemo-Bridging-Header.h */,
+			);
+			path = MSBlockButtonDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		096E96ED204FE198007C1CB8 /* MSBlockButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096E9704204FE198007C1CB8 /* Build configuration list for PBXNativeTarget "MSBlockButtonDemo" */;
+			buildPhases = (
+				096E96EA204FE198007C1CB8 /* Sources */,
+				096E96EB204FE198007C1CB8 /* Frameworks */,
+				096E96EC204FE198007C1CB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSBlockButtonDemo;
+			productName = MSBlockButtonDemo;
+			productReference = 096E96EE204FE198007C1CB8 /* MSBlockButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		096E96E6204FE198007C1CB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = J;
+				TargetAttributes = {
+					096E96ED204FE198007C1CB8 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 096E96E9204FE198007C1CB8 /* Build configuration list for PBXProject "MSBlockButtonDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 096E96E5204FE198007C1CB8;
+			productRefGroup = 096E96EF204FE198007C1CB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				096E96ED204FE198007C1CB8 /* MSBlockButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		096E96EC204FE198007C1CB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096E96FE204FE198007C1CB8 /* LaunchScreen.storyboard in Resources */,
+				096E96FB204FE198007C1CB8 /* Assets.xcassets in Resources */,
+				096E96F9204FE198007C1CB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		096E96EA204FE198007C1CB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096E9709204FE1BA007C1CB8 /* SwiftViewController.swift in Sources */,
+				096E96F6204FE198007C1CB8 /* ViewController.m in Sources */,
+				096E9701204FE198007C1CB8 /* main.m in Sources */,
+				096E96F3204FE198007C1CB8 /* AppDelegate.m in Sources */,
+				095F045920502CD8006E2913 /* UIButton+MSBlocks.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		096E96F7204FE198007C1CB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096E96F8204FE198007C1CB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		096E96FC204FE198007C1CB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096E96FD204FE198007C1CB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		096E9702204FE198007C1CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		096E9703204FE198007C1CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		096E9705204FE198007C1CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2DRDDS6JU;
+				INFOPLIST_FILE = MSBlockButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jzj.MSBlockButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MSBlockButtonDemo/MSBlockButtonDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		096E9706204FE198007C1CB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2DRDDS6JU;
+				INFOPLIST_FILE = MSBlockButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jzj.MSBlockButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "MSBlockButtonDemo/MSBlockButtonDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		096E96E9204FE198007C1CB8 /* Build configuration list for PBXProject "MSBlockButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096E9702204FE198007C1CB8 /* Debug */,
+				096E9703204FE198007C1CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		096E9704204FE198007C1CB8 /* Build configuration list for PBXNativeTarget "MSBlockButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096E9705204FE198007C1CB8 /* Debug */,
+				096E9706204FE198007C1CB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 096E96E6204FE198007C1CB8 /* Project object */;
+}
