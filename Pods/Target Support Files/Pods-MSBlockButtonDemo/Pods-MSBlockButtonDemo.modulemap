@@ -1,0 +1,6 @@
+framework module Pods_MSBlockButtonDemo {
+  umbrella header "Pods-MSBlockButtonDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

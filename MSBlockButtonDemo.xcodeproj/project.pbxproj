@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		095F045920502CD8006E2913 /* UIButton+MSBlocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 095F045820502CCF006E2913 /* UIButton+MSBlocks.m */; };
 		096E96F3204FE198007C1CB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 096E96F2204FE198007C1CB8 /* AppDelegate.m */; };
 		096E96F6204FE198007C1CB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096E96F5204FE198007C1CB8 /* ViewController.m */; };
 		096E96F9204FE198007C1CB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096E96F7204FE198007C1CB8 /* Main.storyboard */; };
@@ -15,12 +14,10 @@
 		096E96FE204FE198007C1CB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096E96FC204FE198007C1CB8 /* LaunchScreen.storyboard */; };
 		096E9701204FE198007C1CB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 096E9700204FE198007C1CB8 /* main.m */; };
 		096E9709204FE1BA007C1CB8 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096E9708204FE1BA007C1CB8 /* SwiftViewController.swift */; };
+		8CCC54AE22333FE58343972D /* Pods_MSBlockButtonDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9932528A389D1957BD86E512 /* Pods_MSBlockButtonDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		092C64F6205036E100DBC679 /* MSBlockButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSBlockButton.h; sourceTree = "<group>"; };
-		095F045720502CCF006E2913 /* UIButton+MSBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+MSBlocks.h"; sourceTree = "<group>"; };
-		095F045820502CCF006E2913 /* UIButton+MSBlocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MSBlocks.m"; sourceTree = "<group>"; };
 		096E96EE204FE198007C1CB8 /* MSBlockButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSBlockButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		096E96F1204FE198007C1CB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		096E96F2204FE198007C1CB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,6 +30,9 @@
 		096E9700204FE198007C1CB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		096E9707204FE1B9007C1CB8 /* MSBlockButtonDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MSBlockButtonDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		096E9708204FE1BA007C1CB8 /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
+		6982588296516D8FAE4E9166 /* Pods-MSBlockButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSBlockButtonDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MSBlockButtonDemo/Pods-MSBlockButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9932528A389D1957BD86E512 /* Pods_MSBlockButtonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSBlockButtonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C30F2234813F66BC2B9D4E81 /* Pods-MSBlockButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSBlockButtonDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MSBlockButtonDemo/Pods-MSBlockButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,27 +40,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CCC54AE22333FE58343972D /* Pods_MSBlockButtonDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		095F045520502CCF006E2913 /* MSBlockButton */ = {
-			isa = PBXGroup;
-			children = (
-				095F045720502CCF006E2913 /* UIButton+MSBlocks.h */,
-				095F045820502CCF006E2913 /* UIButton+MSBlocks.m */,
-				092C64F6205036E100DBC679 /* MSBlockButton.h */,
-			);
-			path = MSBlockButton;
-			sourceTree = SOURCE_ROOT;
-		};
 		096E96E5204FE198007C1CB8 = {
 			isa = PBXGroup;
 			children = (
 				096E96F0204FE198007C1CB8 /* MSBlockButtonDemo */,
 				096E96EF204FE198007C1CB8 /* Products */,
+				485A813E99CD21A8EF1848F1 /* Pods */,
+				27C92DF0D480716AF2181BEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,7 +68,6 @@
 		096E96F0204FE198007C1CB8 /* MSBlockButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
-				095F045520502CCF006E2913 /* MSBlockButton */,
 				096E96F1204FE198007C1CB8 /* AppDelegate.h */,
 				096E96F2204FE198007C1CB8 /* AppDelegate.m */,
 				096E96F4204FE198007C1CB8 /* ViewController.h */,
@@ -91,6 +83,23 @@
 			path = MSBlockButtonDemo;
 			sourceTree = "<group>";
 		};
+		27C92DF0D480716AF2181BEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9932528A389D1957BD86E512 /* Pods_MSBlockButtonDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		485A813E99CD21A8EF1848F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6982588296516D8FAE4E9166 /* Pods-MSBlockButtonDemo.debug.xcconfig */,
+				C30F2234813F66BC2B9D4E81 /* Pods-MSBlockButtonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -98,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 096E9704204FE198007C1CB8 /* Build configuration list for PBXNativeTarget "MSBlockButtonDemo" */;
 			buildPhases = (
+				B6A99FA3324B5C17F67ECCDD /* [CP] Check Pods Manifest.lock */,
 				096E96EA204FE198007C1CB8 /* Sources */,
 				096E96EB204FE198007C1CB8 /* Frameworks */,
 				096E96EC204FE198007C1CB8 /* Resources */,
+				8A838B27721E0AE207C1449A /* [CP] Embed Pods Frameworks */,
+				B083E033038921BD23F72D76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -158,6 +170,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8A838B27721E0AE207C1449A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MSBlockButtonDemo/Pods-MSBlockButtonDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MSBlockButton/MSBlockButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MSBlockButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSBlockButtonDemo/Pods-MSBlockButtonDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B083E033038921BD23F72D76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MSBlockButtonDemo/Pods-MSBlockButtonDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6A99FA3324B5C17F67ECCDD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MSBlockButtonDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		096E96EA204FE198007C1CB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -167,7 +233,6 @@
 				096E96F6204FE198007C1CB8 /* ViewController.m in Sources */,
 				096E9701204FE198007C1CB8 /* main.m in Sources */,
 				096E96F3204FE198007C1CB8 /* AppDelegate.m in Sources */,
-				095F045920502CD8006E2913 /* UIButton+MSBlocks.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +364,7 @@
 		};
 		096E9705204FE198007C1CB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6982588296516D8FAE4E9166 /* Pods-MSBlockButtonDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -320,6 +386,7 @@
 		};
 		096E9706204FE198007C1CB8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C30F2234813F66BC2B9D4E81 /* Pods-MSBlockButtonDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
